@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 
-tax_rate = 0.15  # Store tax rate as a variable
+tax_rate = 0.15  
 
 def home(request):
     return HttpResponse("<p>This is a site to calculate tax.</p>")
